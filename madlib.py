@@ -74,3 +74,6 @@ def write_madlib(path, contents):
     """Writes completed madlib into new file"""
     with open(path, 'a') as f:
         f.write(contents)
+
+
+write_madlib('newmadlib.txt', '')
